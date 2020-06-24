@@ -39,6 +39,48 @@ body
     margin: auto;
 }
 
+@media all and (max-width: 1024px) {
+    #bloc_page {
+        width: auto;
+    }
+    #banniere_image {
+        display: none;
+    }
+    #fleche_bulle {
+        display: none;
+    }
+    #photo_zozor img {
+        width: 110px;
+        float: right;
+        margin-left: 15px;
+    }
+    nav ul{
+        width: auto;
+        text-align: left;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        padding-left: 4px;
+    }
+    nav a {
+        font-size: 1.1em;
+    }
+    nav a:hover {
+        border-bottom: 0;
+    }
+    section {
+        flex-direction: column;
+    }
+    article, aside {
+        width: auto;
+        margin-bottom: 15px;
+    }
+    aside p:last-child {
+        text-align: center;
+    }
+}
 section h1, footer h1, nav a
 {
     font-family: Dayrom, serif;
